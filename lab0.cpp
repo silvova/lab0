@@ -9,6 +9,6 @@ int main() {
 	printf("Enter an integer c\n");
 	scanf_s("%d", &c);
 	b = c - a;
-	printf("%d",b);
+	printf("%d-%d=%d", c, a, b);
 	return 0;
 }
